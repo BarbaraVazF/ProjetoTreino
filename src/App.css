@@ -1,0 +1,123 @@
+body {
+  background-color: #074F57;
+  color: #040F0F;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 35px;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.app {
+  background-color: #f4f4f4;
+  padding: 50px;
+  border-radius: 12px;
+  max-width: 650px;
+  margin: 0 auto 300px;
+  margin-top: 60px;
+}
+
+.treino1 {
+  background-color: #f9f9f9;
+  padding: 8px 20px 8px 20px;
+  box-shadow: 0 0 8px #CCCCCC;
+  border-radius: 8px;
+}
+
+
+.category {
+  color: #625F63; 
+  margin-top: -8px;
+}
+
+.exercicio {
+  border-bottom: 1px solid #ccc;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.botoes {
+  padding-top: 22px;
+}
+
+.complete {
+  border-radius: 4px;
+  background-color: #074F57;
+  color: #f9f9f9;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8s5;
+  transition: 0.3s;
+  height: 25px;
+  width: 50px;
+  margin-right: 8px;
+}
+
+.remove {
+  border-radius: 4px;
+  background-color: #074F57;
+  color: #f9f9f9;
+  border: none;
+  cursor: pointer;
+  opacity: 0.85;
+  transition: 0.3s;
+  height: 25px;
+  width: 25px;
+}
+
+input {
+  box-sizing: border-box;
+}
+
+input, select {
+  border-radius: 4px;
+  border: none;
+  padding: 5px;
+  border: 1px solid #DDD;
+  width: 100%;
+  margin-bottom: 5px;
+  height: 30px;
+}
+
+button {
+  border-radius: 4px;
+  background-color: #333974;
+  margin-right: 10px;
+  color: #f9f9f9;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+  transition: 0.3s;
+}
+
+.botao-exercicio {
+  background-color: #074F57;
+  margin-top: 20px;
+  height: 28px;
+}
+
+.criar-exercicio {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.exercicio-form {
+  border-top: solid 1px #CCC;
+  margin-top: 25px;
+}
